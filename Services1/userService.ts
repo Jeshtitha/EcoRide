@@ -1,4 +1,4 @@
-import { supabase } from "C:\Users\DIVYA LAHARI\OneDrive\Desktop\EcoRide\EcoRide\supabaseclient.ts";
+import { supabase } from "../supabase/supabaseclient";
 
 export const createUser = async (user: any) => {
   await supabase.from("users").insert([
